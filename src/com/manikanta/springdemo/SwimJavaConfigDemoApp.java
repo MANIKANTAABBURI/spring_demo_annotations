@@ -11,6 +11,7 @@ public class SwimJavaConfigDemoApp {
 		SwimCoach swimCoach = context.getBean("swimCoach", SwimCoach.class);
 		System.out.println(swimCoach.getDailyWorkout());
 		System.out.println(swimCoach.getDailyFortune());
+		System.out.println(swimCoach.getDailyFortune());
 		System.out.println("Email : " + swimCoach.getEmail());
 		System.out.println("Email : " + swimCoach.getTeam());
 		context.close();
